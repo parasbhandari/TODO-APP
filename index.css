@@ -1,0 +1,36 @@
+body{
+    font-family: Arial;
+}
+h1{
+    text-align: center;
+}
+.main{
+    display:grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    justify-content: center;
+    margin-bottom: 10px;
+
+}
+input,button{
+    padding: 20px;
+    border: 2px solid black;;
+    
+}
+button{
+    background-color: rgba(28, 155, 28, 0.952);
+    border-radius: 15px;
+    width: 150px;
+}
+
+.todo-container{
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 20px;
+    justify-content: center;
+}
+.btn-delete{
+    background-color: red;
+}
